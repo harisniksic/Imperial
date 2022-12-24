@@ -16,6 +16,7 @@
       return [...document.querySelectorAll(el)]
     } else {
       return document.querySelector(el)
+      //Haris i Muamara
     }
   }
 
