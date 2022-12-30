@@ -1094,3 +1094,68 @@ section {
   font-size: 26px;
   margin-bottom: 2cm;
 }
+.mailto-link {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.mailto-link:hover {
+  color: #0066cc;
+}
+form {
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px;
+  background-color: #000; /* set the background color to black */
+  color: #fff; /* set the text color to white */
+  border-radius: 20px; /* add rounded corners to the form */
+  box-shadow: 0 0 5px 2px rgba(0,0,0,100);
+  margin-left: -100px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  border: 1px solid #fff; /* set the border color to white */
+  border-radius: 20px; /* add rounded corners to the input boxes */
+  padding: 10px;
+  font-size: 14px;
+  box-sizing: border-box;
+  color: #fff; /* set the text color to white */
+  background-color: transparent; /* remove the default input box background color */
+}
+
+input::placeholder, textarea::placeholder {
+  color: #fff; /* set the placeholder text color to white */
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #fff; /* set the background color to white */
+  color: #000; /* set the text color to black */
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px; /* add rounded corners to the submit button */
+  cursor: pointer;
+  letter-spacing: 2px;
+  font-family:serif ;
+}
+
+input[type="submit"]:hover {
+  background-color: #eee; /* set the hover background color to light grey */
+}
