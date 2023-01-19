@@ -1153,9 +1153,10 @@ input[type="submit"] {
   border-radius: 20px; /* add rounded corners to the submit button */
   cursor: pointer;
   letter-spacing: 2px;
-  font-family:serif ;
+  font-family: "Raleway", sans-serif;
 }
 
 input[type="submit"]:hover {
   background-color: #eee; /* set the hover background color to light grey */
+  font-family: "Raleway", sans-serif;
 }
